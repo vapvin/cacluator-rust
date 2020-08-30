@@ -28,6 +28,10 @@ fn main() {
         let num2: f32 = num2.trim().parse().unwrap();
         let operator: char = operator.trim().chars().next().unwrap();
 
+        let num3: f32 = num1.trim().parse().unwrap();
+        let num4: f32 = num2.trim().parse().unwrap();
+        let operator2: char = operator.trim().chars().next().unwrap();
+
         let operators = String::from("+-*/");
 
         if !operators.contains(operator) {
